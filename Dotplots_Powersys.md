@@ -1,5 +1,9 @@
 # Pie vs Dots: exploring Cleveland dot plot to show power system data
 
+Notice:
+this Markdown document is the source of the blog article
+https://pierreh.eu/pie-vs-dots-powersystem/
+
 These last weeks, I’ve read [William S. Cleveland](https://en.wikipedia.org/wiki/William_S._Cleveland) book “[The Elements of Graphing Data](https://www.goodreads.com/book/show/18619.Elements_of_Graphing_Data)”.
 I had heard it’s a classical essay on data visualization.
 Of course, on some aspects, the book shows its age (first published in 1985), for example
