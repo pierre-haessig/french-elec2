@@ -1,4 +1,4 @@
-# Pie vs Dots: exploring Cleveland dot plot to show power system data.
+# Pie vs Dots: exploring Cleveland dot plot to show power system data
 
 These last weeks, I’ve read [William S. Cleveland](https://en.wikipedia.org/wiki/William_S._Cleveland) book “[The Elements of Graphing Data](https://www.goodreads.com/book/show/18619.Elements_of_Graphing_Data)”.
 I had heard it’s a classical essay on data visualization.
@@ -21,12 +21,12 @@ I’ve aggregated the hourly data to get yearly statistics similar to RTE’s ye
 
 Such yearly energy data is typically represented with pie charts to show the *share* of each category of power plants. This is RTE’s pie chart for 2018 (from the [Production](https://bilan-electrique-2018.rte-france.com/production-totale/#) chapter):
 
-![pie chart for the energy share of each plant type in 2018](img/RTE_2018_energy_pie-chart.png)
+![Pie chart for the energy share of each power plant type in France in 2018](img/RTE_2018_energy_pie-chart.png)
 
 However, Cleveland claims that the dot plot alternative enables **more efficient reading** of single point values
 and also **easier comparison** of different points together. Here is the same data shown with a *simple dot plot*:
 
-![](dotplots/Dotplot_Powersys_2018_int_colored.png)
+![Dot plot of French electricity energy data for 2018](dotplots/Dotplot_Powersys_2018_int_colored.png)
 
 I’ve colored plant types by three general categories:
 
@@ -171,7 +171,8 @@ how to embed a Vega-Lite chart in Wordpress:
 
 ![Screencast of the interactive French electricity dot plot created with Altair/Vega-Lite where each year can be highlighted](dotplots/Dotplot_Powersys_interactive.mp4)
 
-To experience the interactivity, here is a standalone HTML page with the plot: [Dotplot_Powersys_interactive.html](https://github.com/pierre-haessig/french-elec2/blob/master/dotplots/Dotplot_Powersys_interactive.html)
+To experience the interactivity, here is a standalone HTML page with the plot:
+[Dotplot_Powersys_interactive.html](https://pierreh.eu/wp-content/uploads/Dotplot_Powersys_interactive.html)
 
 ### A quick overview of interactivity with Altair
 
@@ -239,5 +240,5 @@ but at least they are small enough to be almost invisible in the plots.
 
 ### Code to reproduce the plots
 
-All the plots presented here can be found in the [Dotplots_Powersys.ipynb](https://github.com/pierre-haessig/french-elec2/blob/master/Dotplots_Powersys.ipynb) [Jupyter](https://jupyter.org/) notebook,
+All the Python code which generates the plots presented here can be found in the [Dotplots_Powersys.ipynb](https://github.com/pierre-haessig/french-elec2/blob/master/Dotplots_Powersys.ipynb) [Jupyter](https://jupyter.org/) notebook,
 within my [french-elec2](https://github.com/pierre-haessig/french-elec2/) repository.
